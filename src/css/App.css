@@ -1,0 +1,35 @@
+*, *::before, *::after{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+:root{
+ /* Used colors */
+ --font-color-black: #000000;
+ --font-color-white: #FFFFFF;
+ --font-color-body: #7D7D7D;
+ --color-light-gray: #E5E5E5;
+ --color-very-light-gray: #F3F3F3;
+ --color-white: #FFFFFF;
+
+}
+
+html{
+    font-size: 62.5%; /* so that 1em and 1rem = 10px on default settings */
+}
+
+body{
+    background: var(--color-white);
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+    color: var(--font-color-body);
+}
+
+
+
+.u-heading-2{
+    color: var(--font-color-white);
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+}
