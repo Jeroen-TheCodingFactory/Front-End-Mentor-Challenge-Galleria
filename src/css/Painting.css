@@ -19,75 +19,75 @@
 
 .starry{
     grid-column: 1 / span 6;
-    grid-row: 1 / span 2;
+    grid-row: 1 / span 3;
 }
 
 .girl{
     grid-column: 7 / span 6;
-    grid-row: 1 / span 5;
+    grid-row: 1 / span 6;
 }
 
 .guernica{
     grid-column: 13 / span 6;
-    grid-row: 1 / span 3;
+    grid-row: 1 / span 4;
 }
 
 .penitent{
     grid-column: 19 / span 6;
-    grid-row: 1 / span 2;
+    grid-row: 1 / span 3;
 }
 
 .storm{
-    grid-row: 3 / span 4;
+    grid-row: 4 / span 5;
     grid-column: 1 / span 6;
 }
 
 .wave{
-    grid-row: 6 / span 3;
+    grid-row: 7 / span 4;
     grid-column: 7 / span 6;
 }
 
 .gogh{
     grid-column: 13 / span 6;
-    grid-row: 4 / span 5;
+    grid-row: 5 / span 7;
 }
 
 .sleeping{
     grid-column: 19 / span 6;
-    grid-row: 3 / span 2;
+    grid-row: 4 / span 3;
 }
 
 .lady{
     grid-column: 1 / span 6;
-    grid-row: 7 / span 5; /*not sure */ 
+    grid-row: 9 / span 6; /*not sure */ 
 }
 
 .cafe{
     grid-column: 7 / span 6;
-    grid-row: 9 / span 2;
+    grid-row: 11 / span 3;
 }
 
 .mona{
     grid-column: 13 / span 6;
-    grid-row: 9 / span 6;
+    grid-row: 12 / span 6;
 }
 
 .basket{
     grid-column: 19 / span 6;
-    grid-row: 5 /  span 6;
+    grid-row:  7 /  span 6;
 }
 
 .boy{
     grid-column: 1 / span 6;
-    grid-row: 12 / span 3;
+    grid-row: 15 / span 3;
 }
 
 .portrait{
     grid-column: 7 / span 6;
-    grid-row: 11 / span 4;
+    grid-row: 14 / span 4;
 }
 
 .swing{
     grid-column: 19 / span 6;
-    grid-row: 11 / span 4;
+    grid-row: 13 / span 5;
 }
