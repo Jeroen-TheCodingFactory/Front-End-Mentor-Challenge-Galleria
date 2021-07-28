@@ -1,0 +1,93 @@
+/* formula: longest in proceeding row (height)  * -1 (for going up) + own height. Translate this and you have a massionar grid */
+/* own height can be obtained with translateY(100%) */
+
+.painting{
+
+}
+
+.painting__figure{
+    width:100%;
+    height:100%;
+}
+
+
+.painting__image{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.starry{
+    grid-column: 1 / span 6;
+    grid-row: 1 / span 2;
+}
+
+.girl{
+    grid-column: 7 / span 6;
+    grid-row: 1 / span 5;
+}
+
+.guernica{
+    grid-column: 13 / span 6;
+    grid-row: 1 / span 3;
+}
+
+.penitent{
+    grid-column: 19 / span 6;
+    grid-row: 1 / span 2;
+}
+
+.storm{
+    grid-row: 3 / span 4;
+    grid-column: 1 / span 6;
+}
+
+.wave{
+    grid-row: 6 / span 3;
+    grid-column: 7 / span 6;
+}
+
+.gogh{
+    grid-column: 13 / span 6;
+    grid-row: 4 / span 5;
+}
+
+.sleeping{
+    grid-column: 19 / span 6;
+    grid-row: 3 / span 2;
+}
+
+.lady{
+    grid-column: 1 / span 6;
+    grid-row: 7 / span 5; /*not sure */ 
+}
+
+.cafe{
+    grid-column: 7 / span 6;
+    grid-row: 9 / span 2;
+}
+
+.mona{
+    grid-column: 13 / span 6;
+    grid-row: 9 / span 6;
+}
+
+.basket{
+    grid-column: 19 / span 6;
+    grid-row: 5 /  span 6;
+}
+
+.boy{
+    grid-column: 1 / span 6;
+    grid-row: 12 / span 3;
+}
+
+.portrait{
+    grid-column: 7 / span 6;
+    grid-row: 11 / span 4;
+}
+
+.swing{
+    grid-column: 19 / span 6;
+    grid-row: 11 / span 4;
+}

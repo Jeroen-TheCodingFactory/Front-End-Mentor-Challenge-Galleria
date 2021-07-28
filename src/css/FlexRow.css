@@ -1,0 +1,7 @@
+.u-flexrow{
+    max-width: 25%;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 10rem;
+}
