@@ -4,11 +4,13 @@ ul{
  
 }
 .grid{
-    max-width: 190rem;
     gap: 2rem;
-    margin: 0 auto;
+    justify-content: center;
     padding: 2rem;
     display:grid;
     grid-template-columns: repeat(24,minmax(0,1fr));
-    grid-template-rows: repeat(auto-fill,10rem); 
+    grid-template-rows: repeat(auto-fit,10rem); 
+    grid-auto-rows: 10rem;
 } 
+
+

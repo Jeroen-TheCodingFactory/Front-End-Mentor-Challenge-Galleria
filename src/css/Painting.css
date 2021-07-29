@@ -2,7 +2,6 @@
 /* own height can be obtained with translateY(100%) */
 
 .painting{
-
 }
 
 .painting__figure{
@@ -90,4 +89,73 @@
 .swing{
     grid-column: 19 / span 6;
     grid-row: 13 / span 5;
+}
+
+@media screen and (max-width: 68.75rem) {
+    .painting{
+        grid-column: span 12;
+        grid-row: auto;
+    }
+
+    .starry{
+        grid-row: span 3;
+    }
+    
+    .girl{
+        grid-row: span 6;
+    }
+    
+    .guernica{
+        grid-row: span 4;
+    }
+    
+    .penitent{
+        grid-row: span 3;
+    }
+    
+    .storm{
+        grid-row: span 5;
+    }
+    
+    .wave{
+        grid-row: span 4;
+    }
+    
+    .gogh{
+        grid-row: span 8;
+    }
+    
+    .sleeping{
+        grid-row: 14 / span 4;
+        grid-column: 13 / span 12;
+    }
+    
+    .lady{
+        grid-row: 21 / span 6; /*not sure */ 
+    }
+    
+    .cafe{
+        grid-column: 13 / span 12;
+        grid-row: span 4;
+    }
+    
+    .mona{
+        grid-row: span 6;
+    }
+    
+    .basket{
+        grid-row: 22/ span 6;
+    }
+    
+    .boy{
+        grid-row: 27 / span 3;
+    }
+    
+    .portrait{
+        grid-row: 28 / span 4;
+    }
+    
+    .swing{
+        grid-row: span 4;
+    }
 }
