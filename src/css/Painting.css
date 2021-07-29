@@ -91,7 +91,7 @@
     grid-row: 13 / span 5;
 }
 
-@media screen and (max-width: 68.75rem) {
+@media screen and (max-width: 87.5rem) {
     .painting{
         grid-column: span 12;
         grid-row: auto;
@@ -148,14 +148,82 @@
     }
     
     .boy{
-        grid-row: 27 / span 3;
+        grid-row: 27 / span 4;
     }
     
     .portrait{
-        grid-row: 28 / span 4;
+        grid-row: 28 / span 5
     }
     
     .swing{
         grid-row: span 4;
     }
+}
+
+@media screen and (max-width: 50rem) {
+    .painting{
+        grid-column: span 24;
+    }
+
+    .starry{
+        grid-row: span 2;
+    }
+    
+    .girl{
+        grid-row: span 4;
+    }
+    
+    .guernica{
+        grid-row: span 2;
+    }
+    
+    .penitent{
+        grid-row: span 2;
+    }
+    
+    .storm{
+        grid-row: span 3;
+    }
+    
+    .wave{
+        grid-row: span 3;
+    }
+    
+    .gogh{
+        grid-row: span 4;
+    }
+    
+    .sleeping{
+        grid-row: span 2;
+    }
+    
+    .lady{
+        grid-row: span 3; /*not sure */ 
+    }
+    
+    .cafe{
+        grid-row: span 2;
+    }
+    
+    .mona{
+        grid-row: span 4;
+    }
+    
+    .basket{
+        grid-row: 26 / span 4;
+    }
+    
+    .boy{
+        grid-row: 30 / span 3;
+    }
+    
+    .portrait{
+        grid-row: 33 / span 3;
+    }
+    
+    .swing{
+        grid-row: span 3;
+    }
+    
+ 
 }
