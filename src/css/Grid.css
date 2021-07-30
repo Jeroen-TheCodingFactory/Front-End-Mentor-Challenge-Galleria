@@ -13,17 +13,11 @@ ul{
     grid-auto-rows: 10rem;
 } 
 
-/* mobile 800px */
-@media screen and (max-width: 50rem) {
+/* mobile 1000px */
+@media screen and (max-width: 62.5rem) {
     .grid{
         gap:0;
-        grid-row-gap: 2rem;
-        grid-auto-rows: 20rem;
-    }
-}
-/* mobile 550px */
-@media screen and (max-width:34.375rem){
-    .grid{
-        grid-auto-rows: 15rem;
+        grid-row-gap: 4rem;
+        grid-auto-rows: 20rem; /* needed for not showing right around 800px */
     }
 }

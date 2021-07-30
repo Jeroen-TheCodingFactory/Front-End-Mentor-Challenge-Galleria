@@ -104,11 +104,11 @@
     }
     
     .girl{
-        grid-row: span 6;
+        grid-row: span 5;
     }
     
     .guernica{
-        grid-row: span 4;
+        grid-row: span 3;
     }
     
     .penitent{
@@ -116,28 +116,28 @@
     }
     
     .storm{
-        grid-row: span 5;
+        grid-row: span 4;
     }
     
     .wave{
-        grid-row: span 4;
+        grid-row: span 3;
     }
     
     .gogh{
-        grid-row: span 8;
+        grid-row: span 6;
     }
     
     .sleeping{
-        grid-row: span 4;
+        grid-row: span 3;
     }
     
     .lady{
-        grid-row: span 6; /*not sure */ 
+        grid-row: span 5; /*not sure */ 
         grid-column: 1 / span 12;
     }
     
     .cafe{
-        grid-row: 18 / span 4;
+        grid-row: 15 / span 3;
         grid-column: 13 / span 12;
     }
     
@@ -146,7 +146,7 @@
     }
     
     .basket{
-        grid-row: span 6;
+        grid-row: span 5;
     }
     
     .boy{
@@ -162,8 +162,8 @@
     }
 }
 
-/* mobile 800px */
-@media screen and (max-width: 50rem) {
+/* mobile 1000px */
+@media screen and (max-width: 62.5rem) {
     .painting{
         grid-column: span 24;
     }
@@ -177,7 +177,7 @@
     }
     
     .guernica{
-        grid-row: span 2;
+        grid-row: span 3;
     }
     
     .penitent{
@@ -189,7 +189,7 @@
     }
     
     .wave{
-        grid-row: span 2;
+        grid-row: span 3;
     }
     
     .gogh{
@@ -201,7 +201,7 @@
     }
     
     .lady{
-        grid-row: span 3;  
+        grid-row: span 4;  
     }
     
     .cafe{
@@ -209,7 +209,7 @@
     }
     
     .mona{
-        grid-row: span 4;
+        grid-row: span 3;
     }
     
     .basket{
@@ -217,16 +217,18 @@
     }
     
     .boy{
-        grid-row:  span 3;
+        grid-row:  span 2;
     }
     
     .portrait{
         grid-row: span 3;
     }
+
+    .mona{
+        grid-row: span 4;
+    }
     
     .swing{
         grid-row: span 3;
     }
-    
- 
 }
