@@ -15,10 +15,10 @@ const Grid = (props) => {
             <Painting src="./img/the-sleeping-gypsy/gallery.jpg" className="painting sleeping"></Painting>
             <Painting src="./img/lady-with-an-ermine/desktop/gallery.jpg" className="painting lady"></Painting>
             <Painting src="./img/the-night-cafe/gallery.jpg" className="painting cafe"></Painting>
-            <Painting src="./img/mona-lisa/gallery.jpg" className="painting mona"></Painting>
             <Painting src="./img/the-basket-of-apples/gallery.jpg" className="painting basket"></Painting>
             <Painting src="./img/the-boy-in-the-red-vest/gallery.jpg" className="painting boy"></Painting>
             <Painting src="./img/arnolfini-portrait/gallery.jpg" className="painting portrait"></Painting>
+            <Painting src="./img/mona-lisa/gallery.jpg" className="painting mona"></Painting>
             <Painting src="./img/the-swing/gallery.jpg" className="painting swing"></Painting>            
         </ul>
     );

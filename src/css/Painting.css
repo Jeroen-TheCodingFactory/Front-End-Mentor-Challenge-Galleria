@@ -186,7 +186,7 @@
     }
     
     .wave{
-        grid-row: span 3;
+        grid-row: span 2;
     }
     
     .gogh{
@@ -198,7 +198,7 @@
     }
     
     .lady{
-        grid-row: span 3; /*not sure */ 
+        grid-row: span 3;  
     }
     
     .cafe{
@@ -210,15 +210,15 @@
     }
     
     .basket{
-        grid-row: 26 / span 4;
+        grid-row: span 4;
     }
     
     .boy{
-        grid-row: 30 / span 3;
+        grid-row:  span 3;
     }
     
     .portrait{
-        grid-row: 33 / span 3;
+        grid-row: span 3;
     }
     
     .swing{
