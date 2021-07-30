@@ -21,3 +21,9 @@ ul{
         grid-auto-rows: 20rem; /* needed for not showing right around 800px */
     }
 }
+
+@media screen and (max-width: 31.25rem){
+    .grid{
+        grid-auto-rows: 10rem; /* needed for not showing right around 800px */
+    }
+}
