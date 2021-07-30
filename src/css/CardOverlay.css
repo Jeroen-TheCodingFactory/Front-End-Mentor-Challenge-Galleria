@@ -10,8 +10,9 @@
     height:100%;
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: end;
     background: linear-gradient(transparent, 40%, rgba(0,0,0,0.8));
+    padding-bottom: 4rem;
 }
 
 .cardOverlay__heading{
