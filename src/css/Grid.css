@@ -10,7 +10,6 @@ ul{
     padding: 2rem;
     display:grid;
     grid-template-columns: repeat(24,minmax(0,1fr));
-    grid-template-rows: repeat(auto-fit,10rem); 
     grid-auto-rows: 10rem;
 } 
  
@@ -18,7 +17,6 @@ ul{
     .grid{
         gap:0;
         grid-row-gap: 2rem;
-        grid-template-rows: repeat(auto-fit,20rem); 
         grid-auto-rows: 20rem;
     }
 }
