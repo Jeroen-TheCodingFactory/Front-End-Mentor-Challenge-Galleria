@@ -2,6 +2,7 @@
 /* own height can be obtained with translateY(100%) */
 
 .painting{
+    position: relative;
 }
 
 .painting__figure{
