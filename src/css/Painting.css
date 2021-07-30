@@ -58,7 +58,7 @@
 
 .lady{
     grid-column: 1 / span 6;
-    grid-row: 9 / span 6; /*not sure */ 
+    grid-row: 9 / span 6; 
 }
 
 .cafe{
@@ -91,6 +91,7 @@
     grid-row: 13 / span 5;
 }
 
+/* tablet, 1400px */
 @media screen and (max-width: 87.5rem) {
     .painting{
         grid-column: span 12;
@@ -126,17 +127,17 @@
     }
     
     .sleeping{
-        grid-row: 14 / span 4;
-        grid-column: 13 / span 12;
+        grid-row: span 4;
     }
     
     .lady{
-        grid-row: 21 / span 6; /*not sure */ 
+        grid-row: span 6; /*not sure */ 
+        grid-column: 1 / span 12;
     }
     
     .cafe{
+        grid-row: 18 / span 4;
         grid-column: 13 / span 12;
-        grid-row: span 4;
     }
     
     .mona{
@@ -144,15 +145,15 @@
     }
     
     .basket{
-        grid-row: 22/ span 6;
+        grid-row: span 6;
     }
     
     .boy{
-        grid-row: 27 / span 4;
+        grid-row: span 4;
     }
     
     .portrait{
-        grid-row: 28 / span 5
+        grid-row: span 5
     }
     
     .swing{
@@ -160,6 +161,7 @@
     }
 }
 
+/* mobile 800px */
 @media screen and (max-width: 50rem) {
     .painting{
         grid-column: span 24;
