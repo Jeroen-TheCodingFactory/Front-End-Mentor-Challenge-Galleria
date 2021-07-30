@@ -1,9 +1,12 @@
 import "./css/CardOverlay.css";
-import HeadingOne from "./HeadingOne";
-const CardOverlay = ({title}) => {
+
+const CardOverlay = ({title,author}) => {
     return(
         <section className="cardOverlay">
-            <HeadingOne title={title}></HeadingOne>
+            <header className="cardOverlay__header">
+                <h2 class="cardOverlay__heading">{title || "Default"}</h2>
+                <h3 class="cardOverlay__subheading">{author}</h3>              
+            </header>
         </section>
     );
 }
