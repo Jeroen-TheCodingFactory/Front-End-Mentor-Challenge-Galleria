@@ -10,9 +10,8 @@
     height:100%;
     display:flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: flex-end;
     background: linear-gradient(transparent, 40%, rgba(0,0,0,0.8));
-    padding-bottom: 4rem;
 }
 
 .cardOverlay__heading{
@@ -21,16 +20,42 @@
     color: var(--color-white);
     font-family: 'Libre Baskerville', serif;
     font-weight: 700;
-    padding-left:4rem;
+    width:80%;
+    padding-left: 4rem;
     width:70%;
+    padding-bottom:1rem;
 }
 
 .cardOverlay__subheading{
     font-size: 1.3rem;
-    line: height 1.7rem;
+    line-height: 1.7rem;
     color: var(--color-white);
     opacity:0.75;
     font-weight:400;
     font-family: 'Libre Baskerville', serif;
+    width:80%;
     padding-left: 4rem;
+    padding-bottom:4rem;
+    width:70%;
+}
+
+
+/* tablet, 1400px, 2 paintings at a time */
+/* Here we use absolulte positioning for ipad and iphone support*/
+@media screen and (max-width: 87.5rem) {
+    .cardOverlay__heading{
+        position: absolute;
+        bottom:28%;
+        left:5%;
+        width:80%;
+        padding:0;
+    }
+
+    .cardOverlay__subheading{
+        position: absolute;
+        bottom:15%;
+        left:5%;
+        width:80%;
+        padding:0;
+    }
 }
