@@ -1,5 +1,6 @@
 .painting{
     position: relative;
+    box-shadow: 0 1rem 1rem rgba(0,0,0,0.2);
 }
 
 /* Overlay which is shown on Hover, needed z-index because the gradient of the CardOverlay needs to be on top! */
