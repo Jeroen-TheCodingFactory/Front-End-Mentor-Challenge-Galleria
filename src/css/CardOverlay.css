@@ -42,11 +42,11 @@
 
 /* tablet, 1400px, 2 paintings at a time */
 /* Here we use absolulte positioning for ipad and iphone support*/
-@media screen and (max-width: 87.5rem) {
+@media screen and (max-width: 110rem) {
     .cardOverlay__heading{
         position: absolute;
         bottom:28%;
-        left:5%;
+        left:10%;
         width:80%;
         padding:0;
     }
@@ -54,7 +54,7 @@
     .cardOverlay__subheading{
         position: absolute;
         bottom:15%;
-        left:5%;
+        left:10%;
         width:80%;
         padding:0;
     }

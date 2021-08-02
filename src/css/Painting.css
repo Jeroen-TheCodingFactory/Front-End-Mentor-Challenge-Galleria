@@ -90,7 +90,7 @@
 }
 
 /* tablet, 1400px, 2 paintings at a time */
-@media screen and (max-width: 87.5rem) {
+@media screen and (max-width: 110rem) {
     .painting{
         grid-column: span 12;
         grid-row: auto;
