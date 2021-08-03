@@ -1,0 +1,40 @@
+.header{
+    height:10%; 
+    width:100%;
+    padding:4rem;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.header::after{
+    content:"";
+    height:100%;
+    position:absolute;
+    top:0;
+    left:4rem;
+    right:4rem;
+    border-bottom: 0.1rem solid var(--color-gray-border);
+}
+
+.header__logo{
+    width:auto;
+}
+
+.header__start_slideshow{
+    font-family: 'Libre Baskerville', serif;
+    font-weight:700;
+    text-transform:uppercase;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.257rem;
+    color: var(--font-link-color);
+    text-decoration: none;
+    z-index: 1;
+    transition: color 0.2s;
+}
+
+.header__start_slideshow:hover{
+    color: var(--font-color-black);
+}
