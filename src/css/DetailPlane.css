@@ -64,3 +64,17 @@
     line-height: 2.8rem;
     color: var(--font-link-color);
 }
+
+.detailPlane__year{
+    grid-column: span 9;
+    grid-row: span 1;
+    padding-left:4rem;
+}
+
+.detailPlane__yearHeading{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20rem;
+    font-weight: 700;
+    line-height: 15rem;
+    color: var(--color-year-heading);
+}

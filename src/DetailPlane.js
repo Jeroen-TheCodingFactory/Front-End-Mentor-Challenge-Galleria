@@ -8,11 +8,14 @@ const DetailPlane = (props) => {
             </figure>
             <section class="detailPlane__figcaption">
                 <h1 class="detailPlane__heading">Starry Night</h1>
-                <h2 class="detailPlane__subheading">Vincent van Gogh</h2>
+                <h3 class="detailPlane__subheading">Vincent van Gogh</h3>
             </section>
             <figure className="detailPlane__artist">
                 <img src="./img/starry-night/artist.jpg" alt="placeholder"/>
             </figure>
+            <header className="detailPlane__year">
+                <h2 className="detailPlane__yearHeading">1889</h2>
+            </header>
             <section className="detailPlane__about">
                 <p className="detailPlane__text"> 
                     Although The Starry Night was painted during the day in Van Gogh's ground-floor 
