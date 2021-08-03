@@ -1,12 +1,12 @@
 import Grid from "./Grid";
 import './css/App.css';
 import Header from "./Header";
+import DetailPage from "./DetailPage";
 
 const App = () => {
     return (
         <div>
-            <Header></Header>
-            <Grid></Grid>
+            <DetailPage slideshow="stop slideshow"></DetailPage>
         </div>
     );
 }
