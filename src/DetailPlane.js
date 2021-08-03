@@ -27,6 +27,9 @@ const DetailPlane = (props) => {
                     morning, I watch the sun rise in all its glory."
                 </p>
             </section>
+            <section className="detailPlane__source">
+                <a href="#" className="detailPlane__link">Go to source</a>
+            </section>
         </main>
     );
 }

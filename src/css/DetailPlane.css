@@ -78,3 +78,23 @@
     line-height: 15rem;
     color: var(--color-year-heading);
 }
+
+.detailPlane__source{
+    grid-row: 6 / span 1;
+    grid-column: 15 / span 3;
+}
+
+.detailPlane__link{
+    padding-left: 4rem;
+    padding-top: 6.4rem;
+    display:block;
+    font-family: 'Libre Baskerville', serif;
+    font-weight:700;
+    /* increased from 0.9 to 1.2 of original design */
+    font-size: 1.2rem;
+    line-height: 1.1rem;
+    letter-spacing: 0.2rem;
+    color: var(--font-link-color);
+    text-transform:uppercase;
+
+}
