@@ -43,5 +43,24 @@
     font-size: 1.5rem;
     line-height: 1.9rem;
     color: var(--font-link-color);
+}
 
+.detailPlane__artist{
+    grid-column: 8 / span 3;
+    grid-row: 6 / span 2;
+    padding-left:4rem;
+}
+
+.detailPlane__about{
+    grid-row: 2 / span 4;
+    grid-column: span 5;
+    padding-left: 4rem;
+}
+
+.detailPlane__text{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+    color: var(--font-link-color);
 }
