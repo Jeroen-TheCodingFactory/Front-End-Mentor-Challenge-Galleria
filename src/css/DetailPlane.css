@@ -80,6 +80,7 @@
 
 .detailPlane__link{
     padding-top: 6.4rem;
+    padding-bottom: 4rem;
     display:block;
     font-family: 'Libre Baskerville', serif;
     font-weight:700;
@@ -134,7 +135,7 @@
     }
     .detailPlane__figure{
         grid-column: 1 / -1;
-        grid-row: 1 / 5;
+        grid-row: 1 / 4;
         object-fit: cover;
         padding-left:0;
     }
