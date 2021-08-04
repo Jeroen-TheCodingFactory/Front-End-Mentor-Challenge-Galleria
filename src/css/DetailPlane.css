@@ -356,15 +356,20 @@
     }
 
     .detailPlane__yearHeading{
-       font-size: 600%;
+       font-size: 500%;
     }
     .detailPlane__about{
-        grid-column: 1 / span 24;
+        grid-column: 1 / -1;
         grid-row:  7 / span 6;
+        padding-left:2rem;
     }
 
     .detailPlane__source{
         grid-column: 1 / -1;
-        grid-row:10 / span 1;
+        grid-row:auto /  span 1;
+    }
+    .detailPlane__link{
+        padding:0;
+        padding-left:2rem;
     }
 }
