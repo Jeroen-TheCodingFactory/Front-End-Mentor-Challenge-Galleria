@@ -373,3 +373,9 @@
         padding-left:2rem;
     }
 }
+
+@media screen and (max-width: 25rem) {
+    .detailPlane__figure{
+        grid-row: 1 / 4;
+    }
+}

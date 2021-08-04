@@ -6,6 +6,10 @@ const DetailPlane = (props) => {
             <figure className="detailPlane__figure">
                 <img src="./img/starry-night/hero-large.jpg" alt="placeholder alt" className="detailPlane__image" />
             </figure>
+            <picture className="detailPlane__figure">
+                <source media="(min-width: 37.5rem)" srcset="./img/starry-night/hero-large.jpg" />
+                <img src="./img/starry-night/hero-small.jpg" alt="placeholder alt" className="detailPlane__image" />
+            </picture>
             <section class="detailPlane__figcaption">
                 <h1 class="detailPlane__heading">Starry Night</h1>
                 <h3 class="detailPlane__subheading">Vincent van Gogh</h3>
