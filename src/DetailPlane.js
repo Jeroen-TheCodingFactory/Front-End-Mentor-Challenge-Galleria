@@ -7,7 +7,7 @@ const DetailPlane = (props) => {
                 <img src="./img/starry-night/hero-large.jpg" alt="placeholder alt" className="detailPlane__image" />
             </figure>
             <picture className="detailPlane__figure">
-                <source media="(min-width: 37.5rem)" srcset="./img/starry-night/hero-large.jpg" />
+                <source media="(min-width: 38rem)" srcset="./img/starry-night/hero-large.jpg" />
                 <img src="./img/starry-night/hero-small.jpg" alt="placeholder alt" className="detailPlane__image" />
             </picture>
             <section class="detailPlane__figcaption">
@@ -30,8 +30,6 @@ const DetailPlane = (props) => {
                     around 23 May 1889, "I can see an enclosed square of wheat ... above which, in the 
                     morning, I watch the sun rise in all its glory."
                 </p>
-            </section>
-            <section className="detailPlane__source">
                 <a href="#" className="detailPlane__link">Go to source</a>
             </section>
         </main>
