@@ -1,11 +1,11 @@
 import Grid from "./Grid";
-import './css/App.css';
-import Header from "./Header";
+import './css/App.css'; 
 import DetailPage from "./DetailPage";
 
 const App = () => {
-    return (
+    return ( 
         <div>
+            <Grid></Grid>
             <DetailPage slideshow="stop slideshow"></DetailPage>
         </div>
     );
