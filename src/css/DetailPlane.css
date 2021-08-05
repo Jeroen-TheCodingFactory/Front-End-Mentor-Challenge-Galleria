@@ -65,7 +65,7 @@
 }
 
 .detailPlane__year{
-    grid-column: 17 / span 4;
+    grid-column: 17 / -1;
     grid-row: 1 / span 1;
     padding-left:4rem;
 }
@@ -120,8 +120,8 @@
     }
 
     .detailPlane__artist{
-        grid-column: 16 / span 1;
-        grid-row: 4 / span 1;
+        grid-column: 16 / -1;
+        grid-row: 4 / span 2;
     }
 }
 
@@ -158,14 +158,14 @@
         padding-left: 2rem;
     }
     .detailPlane__artist{
-        grid-row:  4 / span 1;
-        grid-column: 1 / span 3;
+        grid-row:  4 / span 2;
+        grid-column: 1 / span 15;
         padding-left:2rem;
         transform:scale(0.7);
     }
 
     .detailPlane__year{
-        grid-column: 10 / span 4;
+        grid-column: 10 / -1;
         grid-row: 5 / span 1;
         padding:0;
     }

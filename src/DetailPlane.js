@@ -3,9 +3,6 @@ import "./css/DetailPlane.css";
 const DetailPlane = (props) => {
     return (
         <main class="detailPlane">
-            <figure className="detailPlane__figure">
-                <img src="./img/starry-night/hero-large.jpg" alt="placeholder alt" className="detailPlane__image" />
-            </figure>
             <picture className="detailPlane__figure">
                 <source media="(min-width: 38rem)" srcset="./img/starry-night/hero-large.jpg" />
                 <img src="./img/starry-night/hero-small.jpg" alt="placeholder alt" className="detailPlane__image" />
