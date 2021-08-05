@@ -7,7 +7,7 @@ const DetailPlane = (props) => {
                 <img src="./img/starry-night/hero-large.jpg" alt="placeholder alt" className="detailPlane__image" />
             </figure>
             <picture className="detailPlane__figure">
-                <source media="(min-width: 38rem)" srcset="./img/starry-night/hero-large.jpg" />
+                <source media="(min-width: 62.5rem)" srcset="./img/starry-night/hero-large.jpg" />
                 <img src="./img/starry-night/hero-small.jpg" alt="placeholder alt" className="detailPlane__image" />
             </picture>
             <section class="detailPlane__figcaption">

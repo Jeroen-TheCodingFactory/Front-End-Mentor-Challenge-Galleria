@@ -126,8 +126,8 @@
 }
 
 /* from here on mobile */
-/* 600px */
-@media screen and (max-width: 37.5rem) {
+/* 1000px */
+@media screen and (max-width: 62.5rem) {
     .detailPlane{
         padding:3rem; 
         margin-left:0;
