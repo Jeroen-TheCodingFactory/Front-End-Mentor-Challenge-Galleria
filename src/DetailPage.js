@@ -17,9 +17,10 @@ const DetailPage = () => {
     
     return (
         <div class="detailPage">
+            <Header slideshow="stop slideshow" link="/"></Header>
             <DetailPlane openOrCloseModal={openOrCloseModal}></DetailPlane>
-            <Footer></Footer>
             <Modal openOrCloseModal={openOrCloseModal} isOpen={isOpen}></Modal>
+            <Footer></Footer>
         </div>
     );
 }

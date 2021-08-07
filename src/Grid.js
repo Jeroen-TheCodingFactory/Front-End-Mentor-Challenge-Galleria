@@ -1,9 +1,7 @@
 import Painting from "./Painting";
-
 import "./css/Grid.css";
-import Header from "./Header";
 
-const Grid = (props) => {
+const Grid = () =>{
     return(
         <ul class="grid">
             <Painting src="./img/starry-night/gallery.jpg" alt="blabla" className="painting starry" title="Starry Night" author="Vincent van Gogh"></Painting>
