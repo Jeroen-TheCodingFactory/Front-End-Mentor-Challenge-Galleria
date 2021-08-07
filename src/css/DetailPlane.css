@@ -157,6 +157,9 @@
         grid-column: 17 / span 1;
         grid-row: 4 / span 1;
     }
+    .detailPlane__yearHeading{
+        font-size: 1000%;
+     }
 }
 
 /* from here on mobile */
@@ -203,14 +206,14 @@
     }
 
     .detailPlane__year{
-        grid-column: 10 / span 4;
-        grid-row:  5/ span 1;
-        padding:0;    z-index: 1;
-
+        grid-column: 8 / -1;
+        grid-row:  4/ span 2;
+        padding:0;    
+        z-index: 1;
     }
 
     .detailPlane__yearHeading{
-       font-size: 500%;
+       font-size: 800%;
     }
     .detailPlane__about{
         grid-column: 1 / -1;
