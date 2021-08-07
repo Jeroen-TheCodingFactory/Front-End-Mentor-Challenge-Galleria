@@ -30,7 +30,7 @@
 
 .detailPlane__button:hover{
     cursor:pointer;
-    background: rgb(125, 125, 125,0.75);
+    background: rgb(230, 230, 230,0.75);
 }
 .detailPlane__buttonLogo{
     margin-right: 1rem;
@@ -102,7 +102,6 @@
     grid-column: 16 / span 4;
     grid-row: 1 / span 1;
     padding-left:4rem;
-    z-index: 1;
 }
 
 .detailPlane__yearHeading{
@@ -206,7 +205,8 @@
     .detailPlane__year{
         grid-column: 10 / span 4;
         grid-row:  5/ span 1;
-        padding:0;
+        padding:0;    z-index: 1;
+
     }
 
     .detailPlane__yearHeading{
@@ -220,7 +220,7 @@
 
     .detailPlane__button{
         left:2rem;
-        top:6rem;
+        top:4rem;
         bottom:auto;
     }
 }
