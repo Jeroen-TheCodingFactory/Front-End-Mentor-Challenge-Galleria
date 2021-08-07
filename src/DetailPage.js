@@ -1,11 +1,11 @@
-import "./css/DetailPage.css";
+import  {useState} from "react";
 import Header from "./Header";
 import DetailPlane from "./DetailPlane";
-import Footer from "./Footer";
 import Modal from "./Modal";
-
-import  {useState} from "react";
+import Footer from "./Footer";
 import { enableOverFlowY } from "./helpers";
+import "./css/DetailPage.css";
+
 
 const DetailPage = () => {
     let [isOpen,setIsOpen] = useState(false);

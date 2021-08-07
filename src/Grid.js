@@ -1,20 +1,9 @@
-import Painting from "./Painting";
-import {data} from "./data/paintings";
+import { getPaintings } from "./helpers";
 import "./css/Grid.css";
 
 const Grid = () =>{
-    const paintings = data.map(painting => {
-        return(
-            <Painting
-                title={painting.title}
-                author={painting.author}
-                alt={`A painting named ${painting.title} by ${painting.author}`}
-                className={`painting ${painting.className}`}
-                src={painting.src}
-            />
-        );
-    });
-
+    /* get all paintings from Helper function */
+    const paintings = getPaintings();
     return(
         <ul class="grid">
             {paintings}
