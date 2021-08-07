@@ -30,7 +30,7 @@
 
 .detailPlane__button:hover{
     cursor:pointer;
-    background: rgb(230, 230, 230,0.75);
+    background: rgba(230, 230, 230,0.75);
 }
 .detailPlane__buttonLogo{
     margin-right: 1rem;

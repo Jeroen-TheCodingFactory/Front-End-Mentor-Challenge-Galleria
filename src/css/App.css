@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+*:focus{
+    outline: 0.5rem dashed var(--font-color-black);
+}
+
 :root{
  /* Used colors */
  --font-color-black: #000000;
