@@ -38,8 +38,13 @@
     border:none;
     font-weight:700;
     transform: translateY(calc(-100% - 4rem));
+    transition: opacity 0.2s;
 }
- 
+
+.modal__button:hover{
+    cursor:pointer;
+    opacity:0.25;
+}
 @supports (backdrop-filter: blur(0.5rem)){
     .modal{
         backdrop-filter: blur(0.5rem);
