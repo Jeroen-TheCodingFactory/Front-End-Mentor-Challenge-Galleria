@@ -10,6 +10,9 @@
 .detailPlane__figure{
     grid-column: 1 / span 10;
     grid-row: 1 / span 6;
+    /*needed for bugs on older devices*/
+    overflow: hidden;
+
 }
 
 .detailPlane__image{
