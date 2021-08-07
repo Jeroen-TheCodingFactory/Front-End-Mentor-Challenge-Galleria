@@ -1,12 +1,13 @@
+import { Link } from "react-router-dom";
 import "./css/Header.css";
 
-const Header = ({slideshow}) => {
+const Header = ({slideshow, link}) => {
     return (
         <header class="header">
            <figure className="header__logo">
-               <img src="./img/shared/logo.svg" alt="galleria site logo" />
+               <img src="/img/shared/logo.svg" alt="galleria site logo" />
            </figure>
-           <a class="header__start_slideshow" href="#">{slideshow}</a> 
+           <Link class="header__start_slideshow" to={link}>{slideshow}</Link>
         </header>
     );
 }

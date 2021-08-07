@@ -6,7 +6,8 @@ import Modal from "./Modal";
 
 import  {useState} from "react";
 import { enableOverFlowY } from "./helpers";
-const DetailPage = ({slideshow}) => {
+
+const DetailPage = () => {
     let [isOpen,setIsOpen] = useState(false);
 
     const openOrCloseModal = () =>{
@@ -16,7 +17,6 @@ const DetailPage = ({slideshow}) => {
     
     return (
         <div class="detailPage">
-            <Header slideshow={slideshow}></Header>
             <DetailPlane openOrCloseModal={openOrCloseModal}></DetailPlane>
             <Footer></Footer>
             <Modal openOrCloseModal={openOrCloseModal} isOpen={isOpen}></Modal>
