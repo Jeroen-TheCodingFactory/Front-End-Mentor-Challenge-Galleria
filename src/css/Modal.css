@@ -45,3 +45,14 @@
         backdrop-filter: blur(0.5rem);
     }
 }
+
+@media screen and (max-width: 87.5rem) {
+    .modal{
+        justify-content: flex-start;
+        padding-top: 10rem;
+    }
+
+    .modal__button{ 
+        right: 2rem;
+    }
+}
