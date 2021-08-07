@@ -1,8 +1,13 @@
 .painting{
-    position: relative;
     box-shadow: 0 1rem 1rem rgba(0,0,0,0.2);
+    position: relative;
 }
-
+ 
+.painting__link{
+    width:100%;
+    height:100%;
+    display:block;
+}
 /* Overlay which is shown on Hover, needed z-index because the gradient of the CardOverlay needs to be on top! */
 .painting::after{
     content:"";
@@ -14,7 +19,7 @@
     opacity:0;
     top:0;
     left:0;
-    z-index: 0;
+    z-index: -1;
     transition: 0.2s opacity;
 }
 
