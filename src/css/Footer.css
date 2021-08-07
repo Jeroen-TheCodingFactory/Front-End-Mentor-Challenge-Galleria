@@ -10,7 +10,10 @@
 .footer__headers{
    display:flex;
    flex-direction: column;
-   gap: 1rem;
+}
+
+.footer__headers > h5{
+    margin-top: 1rem;
 }
 
 .footer__paintingHeader{
@@ -31,7 +34,10 @@
 
 .footer__buttons{
     display:flex;
-    gap: 4rem;
+}
+
+.footer__button:nth-of-type(1){
+    margin-right: 4rem;
 }
 
 .footer__button{
