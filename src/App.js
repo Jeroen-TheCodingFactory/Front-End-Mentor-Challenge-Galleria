@@ -6,6 +6,7 @@ const App = () => {
     return ( 
         <div>
             <Grid/>
+            <DetailPage slideshow="stop slideshow"/>
         </div>
     );
 }
