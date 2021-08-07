@@ -1,78 +1,109 @@
 export const data = [
     {
         id: 1,
-        title: "The Starry Night",
-        author: "Vincent van Gogh"
+        title: "Starry Night",
+        author: "Vincent van Gogh",
+        className: "painting--starry-night",
+        src:"/img/starry-night/gallery.jpg",
     },
     {
         id: 2,
         title: "Girl with a Pearl Earring",
         author: "Johannes Vermeer",
+        className: "painting--girl-with-a-pearl-earring",
+        src:"/img/girl-with-pearl-earring/gallery.jpg",
     },
     {
         id: 3,
         title: "Guernica",
         author: "Pablo Picasso",
+        className: "painting--guernica",
+        src:"/img/guernica/gallery.jpg",
     },
     {
         id: 4,
-        title: "Pernitent Magdalene",
+        title: "Penitent Magdalene",
         author: "Artemisia Gentileschi",
+        className:"painting--penitent-magdalene",
+        src: "/img/penitent-magdalene/gallery.jpg",
     },
     {
         id: 5,
         title: "The Storm on the Sea of Galilee",
         author:"Rembrandt",
+        className:"painting--the-storm-on-the-sea-of-galilee",
+        src: "/img/the-storm-on-the-sea-of-galilee/gallery.jpg",
     },
     {
         id: 6,
         title:"The Great Wave off Kanagawa",
         author: "Hokusai",
+        className:"painting--the-great-wave-off-kanagawa",
+        src: "/img/the-great-wave-off-kanagawa/gallery.jpg",
     },
     {
         id: 7,
         title: "Van Gogh self-portrait",
-        author: "Vincent van Gogh"
+        author: "Vincent van Gogh",
+        className:"painting--van-gogh-self-portrait",
+        src: "/img/van-gogh-self-portrait/gallery.jpg",
     },
     {
         id: 8,
         title: "The Sleeping Gypsy",
         author: "Henri Rousseau",
+        className:"painting--the-sleeping-gypsy",
+        src: "/img/the-sleeping-gypsy/gallery.jpg",
     },
     {
         id: 9,
         title: "Lady with an Ermin",
         author: "Leonardo da Vinci",
+        className: "painting--lady-with-an-ermin",
+        src: "/img/lady-with-an-ermine/desktop/gallery.jpg",
+        
     },
     {
         id:10,
         title: "The Night Café",
         author: "Vincent van Gogh",
+        className:"painting--the-night-café",
+        src: "/img/the-night-cafe/gallery.jpg",
     },
     {
         id: 11,
         title: "The Basket of Apples",
         author: "Paul Cezanne",
+        className:"painting--the-basket-of-apples",
+        src: "/img/the-basket-of-apples/gallery.jpg",
     },
     {
         id: 12,
         title: "The Boy in the Red Vest",
         author: "Edward Hopper",
+        className: "painting--the-boy-in-the-red-vest",
+        src:"/img/the-boy-in-the-red-vest/gallery.jpg",
     },
     {
         id: 13,
         title: "Arnolfini Portrait",
         author: "Jan van Eyck",
+        className: "painting--arnolfini-portrait",
+        src: "/img/arnolfini-portrait/gallery.jpg",
     },
     {
         id: 14,
         title:"Mona Lisa",
         author: "Leonardo da Vinci",
+        className: "painting--mona-lisa",
+        src: "/img/mona-lisa/gallery.jpg",
     },
     {
         id: 15,
         title: "The Swing",
         author: "Jean-Honore Fragonard",
+        className: "painting--the-swing",
+        src: "/img/the-swing/gallery.jpg",
     },
 
 ];

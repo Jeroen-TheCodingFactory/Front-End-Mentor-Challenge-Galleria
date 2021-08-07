@@ -34,77 +34,77 @@
     object-fit: cover;
 }
 
-.starry{
+.painting--starry-night{
     grid-column: 1 / span 6;
     grid-row: 1 / span 3;
 }
 
-.girl{
+.painting--girl-with-a-pearl-earring{
     grid-column: 7 / span 6;
     grid-row: 1 / span 5;
 }
 
-.guernica{
+.painting--guernica{
     grid-column: 13 / span 6;
     grid-row: 1 / span 4;
 }
 
-.penitent{
+.painting--penitent-magdalene{
     grid-column: 19 / span 6;
     grid-row: 1 / span 3;
 }
 
-.storm{
+.painting--the-storm-on-the-sea-of-galilee{
     grid-row: 4 / span 4;
     grid-column: 1 / span 6;
 }
 
-.wave{
+.painting--the-great-wave-off-kanagawa{
     grid-row: 6 / span 3;
     grid-column: 7 / span 6;
 }
 
-.gogh{
+.painting--van-gogh-self-portrait{
     grid-column: 13 / span 6;
     grid-row: 5 / span 5;
 }
 
-.sleeping{
+.painting--the-sleeping-gypsy{
     grid-column: 19 / span 6;
     grid-row: 4 / span 3;
 }
 
-.lady{
+.painting--lady-with-an-ermin{
     grid-column: 1 / span 6;
     grid-row: 8 / span 4; 
 }
 
-.cafe{
+.painting--the-night-café{
     grid-column: 7 / span 6;
     grid-row: 9 / span 3;
 }
 
-.mona{
-    grid-column: 13 / span 6;
-    grid-row: 10 / span 5;
-}
-
-.basket{
+.painting--the-basket-of-apples{
     grid-column: 19 / span 6;
     grid-row:  7 /  span 5;
 }
 
-.boy{
+.painting--the-boy-in-the-red-vest{
     grid-column: 1 / span 6;
     grid-row: 12 / span 3;
 }
 
-.portrait{
+.painting--arnolfini-portrait{
     grid-column: 7 / span 6;
     grid-row: 12 / span 3;
 }
 
-.swing{
+.painting--mona-lisa{
+    grid-column: 13 / span 6;
+    grid-row: 10 / span 5;
+}
+
+.painting--the-swing{
     grid-column: 19 / span 6;
     grid-row: 12 / span 3;
 }
@@ -116,65 +116,64 @@
         grid-row: auto;
     }
 
-    .starry{
+    .painting--starry-night{
         grid-row: span 3;
     }
     
-    .girl{
+    .painting--girl-with-a-pearl-earring{
         grid-row: span 5;
     }
     
-    .guernica{
+    .painting--guernica{
         grid-row: span 3;
     }
     
-    .penitent{
+    .painting--penitent-magdalene{
         grid-row: span 3;
     }
     
-    .storm{
+    .painting--the-storm-on-the-sea-of-galilee{
         grid-row: span 4;
     }
     
-    .wave{
+    .painting--the-great-wave-off-kanagawa{
         grid-row: span 3;
     }
     
-    .gogh{
+    .painting--van-gogh-self-portrait{
         grid-row: span 6;
     }
     
-    .sleeping{
+    .painting--the-sleeping-gypsy{
         grid-row: span 3;
     }
     
-    .lady{
+    .painting--lady-with-an-ermin{
         grid-row: span 5; /*not sure */ 
         grid-column: 1 / span 12;
     }
     
-    .cafe{
+    .painting--the-night-café{
         grid-row: 15 / span 3;
         grid-column: 13 / span 12;
     }
-    
-    .mona{
+    .painting--the-basket-of-apples{
+        grid-row: span 5;
+    }
+
+    .painting--the-boy-in-the-red-vest{
+        grid-row: span 4;
+    }
+
+    .painting--arnolfini-portrait{
+        grid-row: span 5;
+    }
+
+    .painting--mona-lisa{
         grid-row: span 6;
     }
     
-    .basket{
-        grid-row: span 5;
-    }
-    
-    .boy{
-        grid-row: span 4;
-    }
-    
-    .portrait{
-        grid-row: span 5
-    }
-    
-    .swing{
+    .painting--the-swing{
         grid-row: span 4;
     }
 }
@@ -185,67 +184,63 @@
         grid-column: span 24;
     }
 
-    .starry{
+    .painting--starry-night{
         grid-row: span 2;
     }
     
-    .girl{
+    .painting--girl-with-a-pearl-earring{
         grid-row: span 4;
     }
     
-    .guernica{
+    .painting--guernica{
         grid-row: span 3;
     }
     
-    .penitent{
+    .painting--penitent-magdalene{
         grid-row: span 2;
     }
     
-    .storm{
+    .painting--the-storm-on-the-sea-of-galilee{
         grid-row: span 3;
     }
     
-    .wave{
+    .painting--the-great-wave-off-kanagawa{
         grid-row: span 3;
     }
     
-    .gogh{
+    .painting--van-gogh-self-portrait{
         grid-row: span 4;
     }
     
-    .sleeping{
+    .painting--the-sleeping-gypsy{
         grid-row: span 2;
     }
     
-    .lady{
+    .painting--lady-with-an-ermin{
         grid-row: span 4;  
     }
     
-    .cafe{
+    .painting--the-night-café{
         grid-row: span 2;
     }
     
-    .mona{
-        grid-row: span 3;
-    }
-    
-    .basket{
+    .painting--the-basket-of-apples{
         grid-row: span 4;
     }
-    
-    .boy{
+
+    .painting--the-boy-in-the-red-vest{
         grid-row:  span 2;
     }
     
-    .portrait{
+    .painting--arnolfini-portrait{
         grid-row: span 3;
     }
-
-    .mona{
+    
+    .painting--mona-lisa{
         grid-row: span 4;
     }
     
-    .swing{
+    .painting--the-swing{
         grid-row: span 3;
     }
 }
