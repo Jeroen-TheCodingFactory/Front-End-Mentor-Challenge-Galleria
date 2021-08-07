@@ -12,9 +12,38 @@
     grid-row: 1 / span 6;
     /*needed for bugs on older devices*/
     overflow: hidden;
-
+    position:relative;
 }
 
+.detailPlane__button{
+    position:absolute;
+    bottom:4rem;
+    left:20%;
+    padding:2rem;
+    border:none;
+    background: rgba(0,0,0,0.75);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s all;
+}
+
+.detailPlane__button:hover{
+    cursor:pointer;
+    background: rgb(125, 125, 125,0.75);
+}
+.detailPlane__buttonLogo{
+    margin-right: 1rem;
+}
+.detailPlane__buttonText{
+    color: var(--color-white);
+    text-transform: uppercase;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.25rem;
+    transform: translateY(0.11rem);
+}
 .detailPlane__image{
     height:100%;
     width:100%;
@@ -26,6 +55,8 @@
     grid-row: 1 / span 3;
     grid-column: 7 / span 9;
     box-shadow: 0 1rem 1rem rgba(0,0,0,0.2);
+    /* needed to come on top of figure */
+    z-index: 1;
 }
 
 .detailPlane__heading{
@@ -71,6 +102,7 @@
     grid-column: 16 / span 4;
     grid-row: 1 / span 1;
     padding-left:4rem;
+    z-index: 1;
 }
 
 .detailPlane__yearHeading{
@@ -184,6 +216,12 @@
         grid-column: 1 / -1;
         grid-row:  6 / span 6;
         padding-left:2rem;
+    }
+
+    .detailPlane__button{
+        left:2rem;
+        top:6rem;
+        bottom:auto;
     }
 }
 

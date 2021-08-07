@@ -6,7 +6,6 @@ const App = () => {
     return ( 
         <div>
             <DetailPage slideshow="stop slideshow"></DetailPage>
-            <Footer></Footer>
         </div>
     );
 }
