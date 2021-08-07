@@ -5,7 +5,8 @@ import Footer from "./Footer";
 const App = () => {
     return ( 
         <div>
-            <DetailPage slideshow="stop slideshow"></DetailPage>
+            <Grid/>
+            <DetailPage slideshow="stop slideshow"/>
         </div>
     );
 }
