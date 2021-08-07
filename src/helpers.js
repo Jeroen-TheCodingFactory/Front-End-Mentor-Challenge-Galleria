@@ -22,7 +22,16 @@ export const getPaintings = () =>{
                 className={`painting ${painting.className}`}
                 src={painting.src}
                 link={`/paintings/${painting.id}`}
+                description={painting.description}
             />
         );
     });
+}
+
+/* functions to filter 1 specific painting from the list*/
+/* needs int for it to work with === */
+export const getSpecificPainting = (idFromUrl) =>{
+  return data.filter(painting => {
+        return painting.id === idFromUrl;
+   });
 }
