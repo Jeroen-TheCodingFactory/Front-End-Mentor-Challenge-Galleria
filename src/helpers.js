@@ -28,7 +28,7 @@ export const getPaintings = () =>{
     });
 }
 
-/* functions to filter 1 specific painting from the list*/
+/* function to filter 1 specific painting from the list*/
 /* needs int for it to work with === */
 export const getSpecificPainting = (idFromUrl) =>{
   return data.filter(painting => {

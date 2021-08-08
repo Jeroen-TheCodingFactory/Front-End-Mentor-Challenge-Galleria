@@ -21,7 +21,7 @@ const DetailPlane = ({title,author,year,description,images,openOrCloseModal}) =>
                 <h3 class="detailPlane__subheading">{author}</h3>
             </section>
             <figure className="detailPlane__artist">
-                <img src="/img/starry-night/artist.jpg" alt="placeholder"/>
+                <img src={images.artist} alt={author}/>
             </figure>
             <header className="detailPlane__year">
                 <h2 className="detailPlane__yearHeading">{year}</h2>

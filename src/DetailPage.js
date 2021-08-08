@@ -16,24 +16,37 @@ const DetailPage = () => {
         enableOverFlowY("body");
         return setIsOpen(!isOpen);
     }
-    let detailPlane = getSpecificPainting(parseInt(id)).map(detailPlane => {
+
+    let detailPlane = getSpecificPainting(parseInt(id)).map(painting => {
         return(
             <DetailPlane 
-                description={detailPlane.description} 
-                title={detailPlane.title}
-                author={detailPlane.author}
-                year={detailPlane.year}
+                description={painting.description} 
+                title={painting.title}
+                author={painting.author}
+                year={painting.year}
                 openOrCloseModal={openOrCloseModal}
-                images={detailPlane.images}>
-            </DetailPlane>
+                images={painting.images}
+            />
         );
     }); 
+
+    let modal = getSpecificPainting(parseInt(id)).map(painting => {
+        return(
+            <Modal
+                openOrCloseModal={openOrCloseModal} 
+                isOpen={isOpen}
+                image={painting.images.gallery}
+                alt={`A painting named ${painting.title} by ${painting.author}`}
+            />
+        );
+    });
+    
     
     return (
         <div class="detailPage">
             <Header slideshow="stop slideshow" link="/"></Header>
             {detailPlane}
-            <Modal openOrCloseModal={openOrCloseModal} isOpen={isOpen}></Modal>
+            {modal}
             <Footer></Footer>
         </div>
     );
