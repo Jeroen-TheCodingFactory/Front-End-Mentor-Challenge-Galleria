@@ -16,7 +16,7 @@ export const data = [
         "progressBarValue": 1,
         "links": {
             "source": "",
-            "previousPainting": "none",
+            "previousPainting": "",
             "nextPainting": "/paintings/2",
         }
     },
@@ -311,7 +311,7 @@ export const data = [
         "links": {
             "source": "",
             "previousPainting": "/paintings/14",
-            "nextPainting": "none",
+            "nextPainting": "",
         }
     },
 ];

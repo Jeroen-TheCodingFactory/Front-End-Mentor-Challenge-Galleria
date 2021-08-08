@@ -1,7 +1,11 @@
 import "./css/Footer.css";
 
 const Footer = ({progressBarValue, maxProgressBarValue,title,author,previousPainting,nextPainting}) => {
-    console.log(nextPainting);
+    /* checks if buttons need to be disabled */
+    let extraClassPrevious, extraClassNext = "";
+    if(previousPainting === "") extraClassPrevious = "footer__button--disabled";
+    if(nextPainting === "") extraClassNext = "footer__button--disabled";
+
     return (
         <footer className="footer">
             <progress className="footer__progressBar" max={maxProgressBarValue} value={progressBarValue}></progress>
@@ -11,7 +15,7 @@ const Footer = ({progressBarValue, maxProgressBarValue,title,author,previousPain
                     <h5 className="footer__artistHeader">{author}</h5>
                 </header>
                 <section className="footer__buttons">
-                    <a href={previousPainting} className="footer__button">
+                    <a href={previousPainting} className={`footer__button ${extraClassPrevious}`}>
                         <svg width="26" height="24" xmlns="http://www.w3.org/2000/svg">
                             <g stroke="#000" fill="none" fillRule="evenodd">
                                 <path d="M24.166 1.843L3.627 12.113l20.539 10.269V1.843z" strokeWidth="2"/>
@@ -19,7 +23,7 @@ const Footer = ({progressBarValue, maxProgressBarValue,title,author,previousPain
                             </g>
                         </svg>
                     </a>
-                    <a href={nextPainting} className="footer__button">
+                    <a href={nextPainting} className={`footer__button ${extraClassNext}`}>
                         <svg width="26" height="24" xmlns="http://www.w3.org/2000/svg">
                             <g stroke="#000" fill="none" fillRule="evenodd">
                                 <path d="M1.528 1.843l20.538 10.27L1.528 22.382V1.843z" strokeWidth="2"/>
