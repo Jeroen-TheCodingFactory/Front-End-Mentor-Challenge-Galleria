@@ -22,6 +22,7 @@ const DetailPage = () => {
     let toBeRendered = getSpecificPainting(parseInt(id)).map(painting => {
         return(
             <div className="detailPage">
+                <Header slideshow="stop slideshow" link="/"></Header>
                 <DetailPlane 
                     description={painting.description} 
                     title={painting.title}
@@ -46,10 +47,7 @@ const DetailPage = () => {
     
     
     return (
-        <div class="detailPage">
-            <Header slideshow="stop slideshow" link="/"></Header>
-            {toBeRendered}
-        </div>
+        <div>   {toBeRendered}</div>
     );
 }
 
