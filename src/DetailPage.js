@@ -42,6 +42,8 @@ const DetailPage = () => {
                     maxProgressBarValue={getMaxProgressBarValue()}
                     title={painting.title}
                     author={painting.author}
+                    previousPainting={painting.links.previousPainting}
+                    nextPainting={painting.links.nextPainting}
                 />
             </div>
         );

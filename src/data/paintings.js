@@ -14,6 +14,11 @@ export const data = [
             "thumbnail": "/img/starry-night/gallery.jpg",
         },
         "progressBarValue": 1,
+        "links": {
+            "source": "",
+            "previousPainting": "none",
+            "nextPainting": "/paintings/2",
+        }
     },
     {
         "id": 2,
@@ -30,6 +35,11 @@ export const data = [
             "thumbnail": "/img/girl-with-pearl-earring/gallery.jpg",
         },
         "progressBarValue": 2,
+        "links": {
+            "source": "",
+            "previousPainting": "/paintings/1",
+            "nextPainting": "/paintings/3",
+        }
     },
     {
         "id": 3,
@@ -46,6 +56,11 @@ export const data = [
             "thumbnail": "/img/guernica/gallery.jpg",
         },
         "progressBarValue": 3,
+        "links": {
+            "source": "",
+            "previousPainting": "/paintings/2",
+            "nextPainting": "/paintings/4",
+        }
     },
     {
         "id": 4,
@@ -62,6 +77,11 @@ export const data = [
             "thumbnail": "/img/penitent-magdalene/gallery.jpg",
         },
         "progressBarValue": 4,
+        "links": {
+            "source": "",
+            "previousPainting": "/paintings/3",
+            "nextPainting": "/paintings/5",
+        }
     },
     {
         "id": 5,
@@ -78,6 +98,11 @@ export const data = [
             "thumbnail": "/img/the-storm-on-the-sea-of-galilee/gallery.jpg",
         },
         "progressBarValue": 5,
+        "links": {
+            "source": "",
+            "previousPainting": "/paintings/4",
+            "nextPainting": "/paintings/6",
+        }
     },
     {
         "id": 6,
@@ -94,6 +119,11 @@ export const data = [
             "thumbnail": "/img/the-great-wave-off-kanagawa/gallery.jpg",
         },
         "progressBarValue": 6,
+        "links": {
+            "source": "",
+            "previousPainting": "/paintings/5",
+            "nextPainting": "/paintings/7",
+        }
     },
     {
         "id": 7,
@@ -110,6 +140,11 @@ export const data = [
             "thumbnail": "/img/van-gogh-self-portrait/gallery.jpg",
         },
         "progressBarValue": 7,
+        "links": {
+            "source": "",
+            "previousPainting": "/paintings/6",
+            "nextPainting": "/paintings/8",
+        }
     },
     {
         "id": 8,
@@ -126,6 +161,11 @@ export const data = [
             "thumbnail": "/img/the-sleeping-gypsy/gallery.jpg",
         },
         "progressBarValue": 8,
+        "links": {
+            "source": "",
+            "previousPainting": "/paintings/7",
+            "nextPainting": "/paintings/9",
+        }
     },
     {
         "id": 9,
@@ -142,6 +182,11 @@ export const data = [
             "thumbnail": "/img/lady-with-an-ermine/gallery.jpg",
         },
         "progressBarValue": 9,
+        "links": {
+            "source": "",
+            "previousPainting": "/paintings/8",
+            "nextPainting": "/paintings/10",
+        }
     },
     {
         "id":10,
@@ -158,6 +203,11 @@ export const data = [
             "thumbnail": "/img/the-night-cafe/gallery.jpg",
         },
         "progressBarValue": 10,
+        "links": {
+            "source": "",
+            "previousPainting": "/paintings/9",
+            "nextPainting": "/paintings/11",
+        }
     },
     {
         "id": 11,
@@ -174,6 +224,11 @@ export const data = [
             "thumbnail": "/img/the-basket-of-apples/gallery.jpg",
         },
         "progressBarValue": 11,
+        "links": {
+            "source": "",
+            "previousPainting": "/paintings/10",
+            "nextPainting": "/paintings/12",
+        }
     },
     {
         "id": 12,
@@ -190,6 +245,11 @@ export const data = [
             "thumbnail": "/img/the-boy-in-the-red-vest/gallery.jpg",
         },
         "progressBarValue": 12,
+        "links": {
+            "source": "",
+            "previousPainting": "/paintings/11",
+            "nextPainting": "/paintings/13",
+        }
     },
     {
         "id": 13,
@@ -206,6 +266,11 @@ export const data = [
             "thumbnail": "/img/arnolfini-portrait/gallery.jpg",
         },
         "progressBarValue": 13,
+        "links": {
+            "source": "",
+            "previousPainting": "/paintings/12",
+            "nextPainting": "/paintings/14",
+        }
     },
     {
         "id": 14,
@@ -222,6 +287,11 @@ export const data = [
             "thumbnail": "/img/mona-lisa/gallery.jpg",
         },
         "progressBarValue": 14,
+        "links": {
+            "source": "",
+            "previousPainting": "/paintings/13",
+            "nextPainting": "/paintings/15",
+        }
     },
     {
         "id": 15,
@@ -238,5 +308,10 @@ export const data = [
             "thumbnail": "/img/the-swing/gallery.jpg",
         },
         "progressBarValue": 15,
+        "links": {
+            "source": "",
+            "previousPainting": "/paintings/14",
+            "nextPainting": "none",
+        }
     },
 ];
