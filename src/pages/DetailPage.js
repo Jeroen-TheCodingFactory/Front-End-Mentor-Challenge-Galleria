@@ -8,7 +8,7 @@ import DetailPlane from "../detailpage/DetailPlane";
 import Modal from "../detailpage/Modal";
 import Footer from "../detailpage/Footer";
 /* Helper functions */
-import { enableOverFlowY, getMaxProgressBarValue, getSpecificPainting } from "../helpers";
+import { enableOverFlowY, getMaxProgressBarValue, getSpecificPainting } from "../helpers/helpers";
 /* CSS */
 import "../css/DetailPage.css";
 

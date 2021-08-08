@@ -1,5 +1,5 @@
 /* Helper functions */
-import { getPaintings } from "../helpers";
+import { getPaintings } from "../helpers/helpers";
 /* CSS */
 import "../css/Grid.css";
 

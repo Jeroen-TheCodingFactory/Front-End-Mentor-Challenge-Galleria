@@ -1,5 +1,5 @@
 /* Helper functions */
-import { disableOverflowY } from "../helpers";
+import { disableOverflowY } from "../helpers/helpers";
 /* CSS */
 import "../css/Modal.css";
 
