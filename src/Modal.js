@@ -6,7 +6,7 @@ const Modal = ({isOpen = false, openOrCloseModal, image,alt}) =>{
     if(isOpen === true){
         disableOverflowY("body");
         rendered = (
-            <article className="modal">
+            <article className="modal" onClick={() => openOrCloseModal()}>
                 <figure className="modal__figure">
                     <img src={image} alt="dit is een test?" className="modal__image" />
                     <button onClick={() => openOrCloseModal()} className="modal__button">
