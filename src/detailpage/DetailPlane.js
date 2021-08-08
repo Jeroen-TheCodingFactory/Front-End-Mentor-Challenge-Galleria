@@ -1,5 +1,5 @@
 /* CSS */
-import "./css/DetailPlane.css";
+import "../css/DetailPlane.css";
 
 const DetailPlane = ({title,author,year,description,images,openOrCloseModal}) => {
     return (

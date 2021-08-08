@@ -1,5 +1,5 @@
 /* CSS */
-import "./css/Footer.css";
+import "../css/Footer.css";
 
 const Footer = ({progressBarValue, maxProgressBarValue,title,author,previousPainting,nextPainting}) => {
     /* checks if buttons need to be disabled */

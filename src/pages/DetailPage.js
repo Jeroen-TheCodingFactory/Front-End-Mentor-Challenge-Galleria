@@ -3,14 +3,14 @@ import  { useState, useEffect } from "react";
 /* React-Router */
 import { useParams } from "react-router-dom";
 /* Own Components */
-import Header from "./Header";
-import DetailPlane from "./DetailPlane";
-import Modal from "./Modal";
-import Footer from "./Footer";
+import Header from "../generic/Header";
+import DetailPlane from "../detailpage/DetailPlane";
+import Modal from "../detailpage/Modal";
+import Footer from "../detailpage/Footer";
 /* Helper functions */
-import { enableOverFlowY, getMaxProgressBarValue, getSpecificPainting } from "./helpers";
+import { enableOverFlowY, getMaxProgressBarValue, getSpecificPainting } from "../helpers";
 /* CSS */
-import "./css/DetailPage.css";
+import "../css/DetailPage.css";
 
 
 const DetailPage = () => {

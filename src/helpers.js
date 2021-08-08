@@ -1,5 +1,5 @@
 /* Own components */
-import Painting from "./Painting";
+import Painting from "./homepage/Painting";
 /* data which contains all paintings as objects in 1 array */
 import {data} from "./data/paintings";
 /* Global var for amount of paintins and so the max value of the progress bar shown on Detail Pages */

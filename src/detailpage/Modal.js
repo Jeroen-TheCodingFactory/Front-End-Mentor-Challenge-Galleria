@@ -1,7 +1,7 @@
 /* Helper functions */
-import { disableOverflowY } from "./helpers";
+import { disableOverflowY } from "../helpers";
 /* CSS */
-import "./css/Modal.css";
+import "../css/Modal.css";
 
 const Modal = ({isOpen = false, openOrCloseModal, image,alt}) =>{
 

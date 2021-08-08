@@ -1,5 +1,5 @@
 /* CSS files */
-import "./css/CardOverlay.css";
+import "../css/CardOverlay.css";
 
 const CardOverlay = ({title,author}) => {
     return(

@@ -1,7 +1,7 @@
 /* React-Router */
 import { Link } from "react-router-dom";
-/* CSS */ 
-import "./css/Header.css";
+/* CSS */  
+import "../css/Header.css";
 
 const Header = ({slideshow, link}) => {
     return ( 

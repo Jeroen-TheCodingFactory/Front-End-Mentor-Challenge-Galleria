@@ -1,8 +1,8 @@
 /* React (Hooks) */
 import { useEffect } from "react";
 /* Own Components */
-import Header from "./Header";
-import Grid from "./Grid";
+import Header from "../generic/Header";
+import Grid from "../homepage/Grid";
 
 const HomePage = () => {
     /* Needed for scrolling to top everytime the Page gets loaded */

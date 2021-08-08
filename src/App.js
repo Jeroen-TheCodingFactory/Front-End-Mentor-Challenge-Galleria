@@ -1,8 +1,8 @@
 /* React-Router */
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 /* Own components */
-import DetailPage from "./DetailPage";
-import HomePage from "./HomePage";
+import DetailPage from "./pages/DetailPage";
+import HomePage from "./pages/HomePage";
 /* CSS files */
 import './css/App.css'; 
 
