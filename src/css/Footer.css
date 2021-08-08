@@ -9,7 +9,7 @@ progress{
 }
 
   progress::-webkit-progress-bar {
-    background: var(--color-progress-background);
+    background: var(--color-header-border-progress-background);
 
   }
   progress::-webkit-progress-value {
@@ -23,7 +23,7 @@ progress{
 .footer__progressBar{
     width:100%;
     height: 0.2rem;
-    background: var(--color-progress-background);
+    background: var(--color-header-border-progress-background);
     border:none;
 }
 

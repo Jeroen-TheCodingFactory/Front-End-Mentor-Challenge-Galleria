@@ -15,7 +15,7 @@
     top:0;
     left:4rem;
     right:4rem;
-    border-bottom: 0.1rem solid var(--color-gray-border);
+    border-bottom: 0.1rem solid var(--color-header-border-progress-background); 
 }
 
 .header__logo{
@@ -58,7 +58,6 @@
     .header::after{
         left:2rem;
         right:2rem;
-        border-bottom: 0.1rem solid var(--color-gray-border);
     }
 
     .header__start_slideshow{
