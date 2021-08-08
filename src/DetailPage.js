@@ -1,11 +1,16 @@
-import  {useState, useEffect} from "react";
+/* React (hooks) */
+import  { useState, useEffect } from "react";
+/* React-Router */
+import { useParams } from "react-router-dom";
+/* Own Components */
 import Header from "./Header";
 import DetailPlane from "./DetailPlane";
 import Modal from "./Modal";
 import Footer from "./Footer";
+/* Helper functions */
 import { enableOverFlowY, getMaxProgressBarValue, getSpecificPainting } from "./helpers";
+/* CSS */
 import "./css/DetailPage.css";
-import { useParams } from "react-router-dom";
 
 
 const DetailPage = () => {

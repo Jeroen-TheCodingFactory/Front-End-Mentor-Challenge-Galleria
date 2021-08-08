@@ -1,8 +1,11 @@
+/* React-Router */
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+/* Own components */
 import DetailPage from "./DetailPage";
 import HomePage from "./HomePage";
+/* CSS files */
 import './css/App.css'; 
 
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 const App = () => {
     return ( 
         <Router>

@@ -1,4 +1,6 @@
+/* Helper functions */
 import { getPaintings } from "./helpers";
+/* CSS */
 import "./css/Grid.css";
 
 const Grid = () =>{

@@ -1,4 +1,6 @@
-import { useEffect} from "react";
+/* React (Hooks) */
+import { useEffect } from "react";
+/* Own Components */
 import Header from "./Header";
 import Grid from "./Grid";
 

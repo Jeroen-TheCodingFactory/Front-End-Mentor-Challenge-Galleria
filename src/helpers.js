@@ -1,6 +1,10 @@
-import {data} from "./data/paintings";
-import {MAXPROGRESSBARVALUE} from "./data/progressbarvalue";
+/* Own components */
 import Painting from "./Painting";
+/* data which contains all paintings as objects in 1 array */
+import {data} from "./data/paintings";
+/* Global var for amount of paintins and so the max value of the progress bar shown on Detail Pages */
+import {MAXPROGRESSBARVALUE} from "./data/progressbarvalue";
+
 
 /* function for disabling a vertical overflow on elements */ 
 export const disableOverflowY = (tagName) => {
