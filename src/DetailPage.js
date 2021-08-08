@@ -21,7 +21,7 @@ const DetailPage = () => {
     /* In the Footer another helper function is used to get the max value of the progress bars (amount of paintings) */
     let toBeRendered = getSpecificPainting(parseInt(id)).map(painting => {
         return(
-            <div className="detailPage">
+            <div key={painting.id} className="detailPage">
                 <Header slideshow="stop slideshow" link="/"></Header>
                 <DetailPlane 
                     description={painting.description} 
@@ -40,6 +40,8 @@ const DetailPage = () => {
                 <Footer
                     progressBarValue={painting.progressBarValue}
                     maxProgressBarValue={getMaxProgressBarValue()}
+                    title={painting.title}
+                    author={painting.author}
                 />
             </div>
         );
@@ -47,7 +49,7 @@ const DetailPage = () => {
     
     
     return (
-        <div>   {toBeRendered}</div>
+        <div>{toBeRendered}</div>
     );
 }
 

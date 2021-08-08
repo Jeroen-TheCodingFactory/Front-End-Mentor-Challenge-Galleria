@@ -17,6 +17,7 @@ export const getPaintings = () =>{
     return data.map(painting => {
         return(
             <Painting
+                key={painting.id}
                 title={painting.title}
                 author={painting.author}
                 alt={`A painting named ${painting.title} by ${painting.author}`}

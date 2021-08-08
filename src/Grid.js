@@ -5,7 +5,7 @@ const Grid = () =>{
     /* get all paintings from Helper function */
     const paintings = getPaintings();
     return(
-        <ul class="grid">
+        <ul className="grid">
             {paintings}
         </ul>
     );
