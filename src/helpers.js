@@ -41,3 +41,4 @@ export const getSpecificPainting = (idFromUrl) =>{
 export const getMaxProgressBarValue = () =>{
     return MAXPROGRESSBARVALUE;
 }
+

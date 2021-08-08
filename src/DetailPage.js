@@ -1,4 +1,4 @@
-import  {useState} from "react";
+import  {useState, useEffect} from "react";
 import Header from "./Header";
 import DetailPlane from "./DetailPlane";
 import Modal from "./Modal";
@@ -9,6 +9,11 @@ import { useParams } from "react-router-dom";
 
 
 const DetailPage = () => {
+    /* Needed for scrolling to top everytime the Page gets loaded */
+       useEffect(() => {
+        window.scrollTo(0,0);
+    },[]);
+
     let [isOpen,setIsOpen] = useState(false);
     let {id} = useParams();
     
