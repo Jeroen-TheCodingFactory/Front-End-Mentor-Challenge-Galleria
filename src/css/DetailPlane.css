@@ -25,12 +25,17 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    transition: 0.2s all;
+    transition: background 0.2s;
 }
-
+ 
 .detailPlane__button:hover{
     cursor:pointer;
     background: rgba(230, 230, 230,0.75);
+}
+
+.detailPlane__button:focus{
+    /* outline is different than default outline */
+    outline: 0.5rem dashed var(--font-color-white);
 }
 .detailPlane__buttonLogo{
     margin-right: 1rem;

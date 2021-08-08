@@ -23,7 +23,9 @@ const DetailPage = () => {
                 title={detailPlane.title}
                 author={detailPlane.author}
                 year={detailPlane.year}
-                openOrCloseModal={openOrCloseModal}></DetailPlane>
+                openOrCloseModal={openOrCloseModal}
+                images={detailPlane.images}>
+            </DetailPlane>
         );
     }); 
     

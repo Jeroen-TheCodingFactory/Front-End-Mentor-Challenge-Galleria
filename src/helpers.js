@@ -20,7 +20,7 @@ export const getPaintings = () =>{
                 author={painting.author}
                 alt={`A painting named ${painting.title} by ${painting.author}`}
                 className={`painting ${painting.className}`}
-                src={painting.src}
+                src={painting.images.gallery}
                 link={`/paintings/${painting.id}`}
                 description={painting.description}
             />
