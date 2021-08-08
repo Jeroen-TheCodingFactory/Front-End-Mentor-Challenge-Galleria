@@ -12,7 +12,8 @@ export const data = [
             "small": "/img/starry-night/hero-small.jpg",
             "large": "/img/starry-night/hero-large.jpg",
             "thumbnail": "/img/starry-night/gallery.jpg",
-        }
+        },
+        "progressBarValue": 1,
     },
     {
         "id": 2,
@@ -27,7 +28,8 @@ export const data = [
             "small": "/img/girl-with-pearl-earring/hero-small.jpg",
             "large": "/img/girl-with-pearl-earring/hero-large.jpg",
             "thumbnail": "/img/girl-with-pearl-earring/gallery.jpg",
-        }
+        },
+        "progressBarValue": 2,
     },
     {
         "id": 3,
@@ -42,7 +44,8 @@ export const data = [
             "small": "/img/guernica/hero-small.jpg",
             "large": "/img/guernica/hero-large.jpg",
             "thumbnail": "/img/guernica/gallery.jpg",
-        }
+        },
+        "progressBarValue": 3,
     },
     {
         "id": 4,
@@ -57,7 +60,8 @@ export const data = [
             "small": "/img/penitent-magdalene/hero-small.jpg",
             "large": "/img/penitent-magdalene/hero-large.jpg",
             "thumbnail": "/img/penitent-magdalene/gallery.jpg",
-        }
+        },
+        "progressBarValue": 4,
     },
     {
         "id": 5,
@@ -72,7 +76,8 @@ export const data = [
             "small": "/img/the-storm-on-the-sea-of-galilee/hero-small.jpg",
             "large": "/img/the-storm-on-the-sea-of-galilee/hero-large.jpg",
             "thumbnail": "/img/the-storm-on-the-sea-of-galilee/gallery.jpg",
-        }
+        },
+        "progressBarValue": 5,
     },
     {
         "id": 6,
@@ -87,7 +92,8 @@ export const data = [
             "small": "/img/the-great-wave-off-kanagawa/hero-small.jpg",
             "large": "/img/the-great-wave-off-kanagawa/hero-large.jpg",
             "thumbnail": "/img/the-great-wave-off-kanagawa/gallery.jpg",
-        }
+        },
+        "progressBarValue": 6,
     },
     {
         "id": 7,
@@ -102,7 +108,8 @@ export const data = [
             "small": "/img/van-gogh-self-portrait/hero-small.jpg",
             "large": "/img/van-gogh-self-portrait/hero-large.jpg",
             "thumbnail": "/img/van-gogh-self-portrait/gallery.jpg",
-        }
+        },
+        "progressBarValue": 7,
     },
     {
         "id": 8,
@@ -117,7 +124,8 @@ export const data = [
             "small": "/img/the-sleeping-gypsy/hero-small.jpg",
             "large": "/img/the-sleeping-gypsy/hero-large.jpg",
             "thumbnail": "/img/the-sleeping-gypsy/gallery.jpg",
-        }
+        },
+        "progressBarValue": 8,
     },
     {
         "id": 9,
@@ -132,7 +140,8 @@ export const data = [
             "small": "/img/lady-with-an-ermine/hero-small.jpg",
             "large": "/img/lady-with-an-ermine/hero-large.jpg",
             "thumbnail": "/img/lady-with-an-ermine/gallery.jpg",
-        }
+        },
+        "progressBarValue": 9,
     },
     {
         "id":10,
@@ -147,7 +156,8 @@ export const data = [
             "small": "/img/the-night-cafe/hero-small.jpg",
             "large": "/img/the-night-cafe/hero-large.jpg",
             "thumbnail": "/img/the-night-cafe/gallery.jpg",
-        }
+        },
+        "progressBarValue": 10,
     },
     {
         "id": 11,
@@ -162,7 +172,8 @@ export const data = [
             "small": "/img/the-basket-of-apples/hero-small.jpg",
             "large": "/img/the-basket-of-apples/hero-large.jpg",
             "thumbnail": "/img/the-basket-of-apples/gallery.jpg",
-        }
+        },
+        "progressBarValue": 11,
     },
     {
         "id": 12,
@@ -177,7 +188,8 @@ export const data = [
             "small": "/img/the-boy-in-the-red-vest/hero-small.jpg",
             "large": "/img/the-boy-in-the-red-vest/hero-large.jpg",
             "thumbnail": "/img/the-boy-in-the-red-vest/gallery.jpg",
-        }
+        },
+        "progressBarValue": 12,
     },
     {
         "id": 13,
@@ -192,7 +204,8 @@ export const data = [
             "small": "/img/arnolfini-portrait/hero-small.jpg",
             "large": "/img/arnolfini-portrait/hero-large.jpg",
             "thumbnail": "/img/arnolfini-portrait/gallery.jpg",
-        }
+        },
+        "progressBarValue": 13,
     },
     {
         "id": 14,
@@ -207,7 +220,8 @@ export const data = [
             "small": "/img/mona-lisa/hero-small.jpg",
             "large": "/img/mona-lisa/hero-large.jpg",
             "thumbnail": "/img/mona-lisa/gallery.jpg",
-        }
+        },
+        "progressBarValue": 14,
     },
     {
         "id": 15,
@@ -222,6 +236,7 @@ export const data = [
             "small": "/img/the-swing/hero-small.jpg",
             "large": "/img/the-swing/hero-large.jpg",
             "thumbnail": "/img/the-swing/gallery.jpg",
-        }
+        },
+        "progressBarValue": 15,
     },
 ];

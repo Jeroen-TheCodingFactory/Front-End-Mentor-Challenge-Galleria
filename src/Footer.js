@@ -1,9 +1,9 @@
 import "./css/Footer.css";
 
-const Footer = props => {
+const Footer = ({progressBarValue, maxProgressBarValue}) => {
     return (
         <footer className="footer">
-            <progress className="footer__progressBar" max="15" value="1"></progress>
+            <progress className="footer__progressBar" max={maxProgressBarValue} value={progressBarValue}></progress>
             <div className="footer__wrapper">
                 <header className="footer__headers">
                     <h4 class="footer__paintingHeader">Starry Night</h4>
@@ -18,7 +18,7 @@ const Footer = props => {
                             </g>
                         </svg>
                     </button>
-                    <button className="footer__button ">
+                    <button className="footer__button">
                         <svg width="26" height="24" xmlns="http://www.w3.org/2000/svg">
                             <g stroke="#000" fill="none" fill-rule="evenodd">
                                 <path d="M1.528 1.843l20.538 10.27L1.528 22.382V1.843z" stroke-width="2"/>

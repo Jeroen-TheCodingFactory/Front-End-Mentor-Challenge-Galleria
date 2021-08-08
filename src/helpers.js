@@ -1,4 +1,5 @@
 import {data} from "./data/paintings";
+import {MAXPROGRESSBARVALUE} from "./data/progressbarvalue";
 import Painting from "./Painting";
 
 /* function for disabling a vertical overflow on elements */ 
@@ -34,4 +35,8 @@ export const getSpecificPainting = (idFromUrl) =>{
   return data.filter(painting => {
         return painting.id === idFromUrl;
    });
+}
+
+export const getMaxProgressBarValue = () =>{
+    return MAXPROGRESSBARVALUE;
 }
