@@ -40,6 +40,7 @@ const DetailPage = () => {
                     year={painting.year}
                     openOrCloseModal={openOrCloseModal}
                     images={painting.images}
+                    alt={`A painting named ${painting.title} by ${painting.author}`}
                 />
                 <Modal
                     openOrCloseModal={openOrCloseModal} 
