@@ -23,7 +23,7 @@
 
 @keyframes showModal {
     from{
-        filter: blur(1.5rem);
+        filter: blur(0.5rem);
     }
     to{
         filter: blur(0);
