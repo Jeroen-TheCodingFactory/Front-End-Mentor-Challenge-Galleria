@@ -191,7 +191,7 @@
     }
 
     .painting--starry-night{
-        grid-row: span 2;
+        grid-row: span 3;
     }
     
     .painting--girl-with-a-pearl-earring{
@@ -203,7 +203,7 @@
     }
     
     .painting--penitent-magdalene{
-        grid-row: span 2;
+        grid-row: span 3;
     }
     
     .painting--the-storm-on-the-sea-of-galilee{
@@ -219,7 +219,7 @@
     }
     
     .painting--the-sleeping-gypsy{
-        grid-row: span 2;
+        grid-row: span 3;
     }
     
     .painting--lady-with-an-ermin{
@@ -235,11 +235,11 @@
     }
 
     .painting--the-boy-in-the-red-vest{
-        grid-row:  span 2;
+        grid-row:  span 3;
     }
     
     .painting--arnolfini-portrait{
-        grid-row: span 3;
+        grid-row: span 4;
     }
     
     .painting--mona-lisa{

@@ -81,7 +81,6 @@ progress{
     cursor:pointer;
 }
 
-
 /* footer disabled button modifiers*/
 .footer__button--disabled{
     opacity: 0.15;
@@ -90,4 +89,14 @@ progress{
 .footer__button--disabled:hover{
     opacity: 0.15;
     cursor: not-allowed;
+}
+
+@media screen and (max-width: 62.5rem) {
+    .footer__paintingHeader{
+        font-size: 3rem;
+    }
+    
+    .footer__artistHeader{
+        font-size: 2rem;
+    }
 }
