@@ -12,7 +12,7 @@ const HomePage = () => {
 
 
     return(
-        <div>        
+        <div className="a-popup">        
             <Header slideshow="start slideshow" link="/paintings/1"></Header>
             <Grid></Grid>
         </div>

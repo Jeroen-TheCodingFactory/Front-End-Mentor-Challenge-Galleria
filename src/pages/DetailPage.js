@@ -11,6 +11,7 @@ import Footer from "../detailpage/Footer";
 import { enableOverFlowY, getMaxProgressBarValue, getSpecificPainting } from "../helpers/helpers";
 /* CSS */
 import "../css/DetailPage.css";
+import "../css/Animations.css";
 
 
 const DetailPage = () => {
@@ -63,7 +64,7 @@ const DetailPage = () => {
     
     
     return (
-        <div>{toBeRendered}</div>
+        <div className="a-popup">{toBeRendered}</div>
     );
 }
 
