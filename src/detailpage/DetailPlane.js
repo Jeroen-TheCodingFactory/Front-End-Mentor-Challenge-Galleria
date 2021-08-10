@@ -1,7 +1,7 @@
 /* CSS */
 import "../css/DetailPlane.css";
 
-const DetailPlane = ({title,author,year,description,images,openOrCloseModal,alt}) => {
+const DetailPlane = ({title,author,year,description,images,openOrCloseModal,alt, link}) => {
     return (
         <main className="detailPlane">
             <figure className="detailPlane__figure">
@@ -30,7 +30,7 @@ const DetailPlane = ({title,author,year,description,images,openOrCloseModal,alt}
                 <p className="detailPlane__text"> 
                     {description}
                 </p>
-                <a href="#" className="detailPlane__link">Go to source</a>
+                <a href={link} className="detailPlane__link">Go to source</a>
             </section>
         </main>
     );

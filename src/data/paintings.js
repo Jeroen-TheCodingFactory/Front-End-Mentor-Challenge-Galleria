@@ -15,7 +15,7 @@ export const data = [
         },
         "progressBarValue": 1,
         "links": {
-            "source": "",
+            "source": "https://en.wikipedia.org/wiki/The_Starry_Night",
             "previousPainting": "",
             "nextPainting": "/paintings/2",
         }
@@ -36,7 +36,7 @@ export const data = [
         },
         "progressBarValue": 2,
         "links": {
-            "source": "",
+            "source": "https://en.wikipedia.org/wiki/Girl_with_a_Pearl_Earring",
             "previousPainting": "/paintings/1",
             "nextPainting": "/paintings/3",
         }
@@ -57,7 +57,7 @@ export const data = [
         },
         "progressBarValue": 3,
         "links": {
-            "source": "",
+            "source": "https://en.wikipedia.org/wiki/Guernica_(Picasso)",
             "previousPainting": "/paintings/2",
             "nextPainting": "/paintings/4",
         }
@@ -78,7 +78,7 @@ export const data = [
         },
         "progressBarValue": 4,
         "links": {
-            "source": "",
+            "source": "https://en.wikipedia.org/wiki/Penitent_Magdalene_(Artemisia_Gentileschi)",
             "previousPainting": "/paintings/3",
             "nextPainting": "/paintings/5",
         }
@@ -99,7 +99,7 @@ export const data = [
         },
         "progressBarValue": 5,
         "links": {
-            "source": "",
+            "source": "https://en.wikipedia.org/wiki/The_Storm_on_the_Sea_of_Galilee",
             "previousPainting": "/paintings/4",
             "nextPainting": "/paintings/6",
         }
@@ -120,7 +120,7 @@ export const data = [
         },
         "progressBarValue": 6,
         "links": {
-            "source": "",
+            "source": "https://en.wikipedia.org/wiki/The_Great_Wave_off_Kanagawa",
             "previousPainting": "/paintings/5",
             "nextPainting": "/paintings/7",
         }
@@ -141,7 +141,7 @@ export const data = [
         },
         "progressBarValue": 7,
         "links": {
-            "source": "",
+            "source": "https://en.wikipedia.org/wiki/Van_Gogh_self-portrait_(1889)",
             "previousPainting": "/paintings/6",
             "nextPainting": "/paintings/8",
         }
@@ -162,7 +162,7 @@ export const data = [
         },
         "progressBarValue": 8,
         "links": {
-            "source": "",
+            "source": " https://en.wikipedia.org/wiki/The_Sleeping_Gypsy ",
             "previousPainting": "/paintings/7",
             "nextPainting": "/paintings/9",
         }
@@ -183,7 +183,7 @@ export const data = [
         },
         "progressBarValue": 9,
         "links": {
-            "source": "",
+            "source": " https://en.wikipedia.org/wiki/Lady_with_an_Ermine",
             "previousPainting": "/paintings/8",
             "nextPainting": "/paintings/10",
         }
@@ -204,7 +204,7 @@ export const data = [
         },
         "progressBarValue": 10,
         "links": {
-            "source": "",
+            "source": "https://en.wikipedia.org/wiki/The_Night_Caf%C3%A9",
             "previousPainting": "/paintings/9",
             "nextPainting": "/paintings/11",
         }
@@ -225,7 +225,7 @@ export const data = [
         },
         "progressBarValue": 11,
         "links": {
-            "source": "",
+            "source": "https://en.wikipedia.org/wiki/The_Basket_of_Apples",
             "previousPainting": "/paintings/10",
             "nextPainting": "/paintings/12",
         }
@@ -246,7 +246,7 @@ export const data = [
         },
         "progressBarValue": 12,
         "links": {
-            "source": "",
+            "source": "https://en.wikipedia.org/wiki/The_Boy_in_the_Red_Vest",
             "previousPainting": "/paintings/11",
             "nextPainting": "/paintings/13",
         }
@@ -267,7 +267,7 @@ export const data = [
         },
         "progressBarValue": 13,
         "links": {
-            "source": "",
+            "source": "https://en.wikipedia.org/wiki/Arnolfini_Portrait",
             "previousPainting": "/paintings/12",
             "nextPainting": "/paintings/14",
         }
@@ -288,7 +288,7 @@ export const data = [
         },
         "progressBarValue": 14,
         "links": {
-            "source": "",
+            "source": "https://en.wikipedia.org/wiki/Mona_Lisa",
             "previousPainting": "/paintings/13",
             "nextPainting": "/paintings/15",
         }
@@ -309,7 +309,7 @@ export const data = [
         },
         "progressBarValue": 15,
         "links": {
-            "source": "",
+            "source": "https://en.wikipedia.org/wiki/The_Swing_(Fragonard)",
             "previousPainting": "/paintings/14",
             "nextPainting": "",
         }
