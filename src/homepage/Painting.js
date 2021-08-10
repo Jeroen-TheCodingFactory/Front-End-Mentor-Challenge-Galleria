@@ -7,7 +7,7 @@ import "../css/Painting.css";
 
 const Painting = ({src, className, title, author, alt,link}) =>{
     return(
-        <li className="painting" className={className}> 
+        <li className={`painting ${className}`}> 
                 <figure className="painting__figure">
                     <Link className="painting__link" to={link}>
                         <img className="painting__image" src={src} alt={alt} />

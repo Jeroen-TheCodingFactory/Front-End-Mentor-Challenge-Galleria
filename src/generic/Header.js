@@ -6,7 +6,7 @@ import "../css/Header.css";
 const Header = ({slideshow, link}) => {
     return ( 
         <header className="header">
-            <Link class="header__link" to="/">
+            <Link className="header__link" to="/">
                 <figure className="header__logo">
                     <img src="/img/shared/logo.svg" alt="galleria site logo" />
                 </figure>
