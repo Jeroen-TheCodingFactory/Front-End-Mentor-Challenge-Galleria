@@ -248,6 +248,7 @@
         grid-row:  6 / span 6;
         padding-left:2rem;
         padding-top: 1rem;
+        z-index: 2;
     }
 
     .detailPlane__button{
