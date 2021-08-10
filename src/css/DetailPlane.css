@@ -87,6 +87,11 @@
     grid-column: 11/ span 3;
     grid-row: 6 / span 2;
     padding-left:4rem;
+    transition: 0.4s filter;
+}
+
+.detailPlane__artist:hover{
+    filter: grayscale(1);
 }
 
 .detailPlane__about{
