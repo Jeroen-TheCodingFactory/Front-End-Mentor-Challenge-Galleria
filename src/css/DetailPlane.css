@@ -271,3 +271,12 @@
     }
 }
 
+/* landscape mobile */
+@media screen and (max-width: 62.5rem) and (orientation: landscape) {
+    .detailPlane__button{
+        left:10rem;
+        top:5rem;
+        bottom:auto;
+    }
+}
+
