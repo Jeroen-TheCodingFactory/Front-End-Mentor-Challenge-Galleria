@@ -13,6 +13,12 @@ ul{
     grid-auto-rows: 10rem;
 } 
 
+@media screen and (max-width: 106.25rem) and (orientation: portrait){
+    .grid{
+        padding: 2rem;
+        gap: 2rem;
+    }
+}
 /* mobile 1000px */
 @media screen and (max-width: 62.5rem) {
     .grid{
