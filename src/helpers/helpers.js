@@ -8,7 +8,7 @@ import {MAXPROGRESSBARVALUE} from "../data/progressbarvalue";
 
 /* function for disabling a vertical overflow on elements */ 
 export const disableOverflowY = (tagName) => {
-    document.getElementsByTagName(tagName)[0].style.overflowY = "hidden";
+    //document.getElementsByTagName(tagName)[0].style.overflowY = "hidden";
 }
 
 /* function for enabling a vertical overflow on elements */

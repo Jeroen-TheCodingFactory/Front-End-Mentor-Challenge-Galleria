@@ -189,7 +189,7 @@
 @media screen and (max-width: 106.25rem) and (orientation: landscape){
     .detailPlane__button{
         position:absolute;
-        bottom:10%;
+        bottom:13%;
         left:23%;
     }
 }
