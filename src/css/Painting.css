@@ -115,8 +115,8 @@
     grid-row: 12 / span 3;
 }
 
-/* tablet, 1400px, 2 paintings at a time */
-@media screen and (max-width: 110rem) {
+/* tablet, 1700px, 2 paintings at a time */
+@media screen and (max-width: 106.25rem) {
     .painting{
         grid-column: span 12;
         grid-row: auto;
