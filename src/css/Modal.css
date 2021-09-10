@@ -1,16 +1,17 @@
 .modal{
     background: rgba(0,0,0,0.75);
     position:absolute;
-    height: 100%;
     width:100%;
     top:0;
     left:0;
+    bottom:0;
+    right:0;
     z-index: 2;
     display:flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding:4rem;
+    padding:4rem; 
 }
 
 .modal__buttonWrapper{
@@ -52,10 +53,11 @@
 }
 
 @media screen and (max-width: 106.25rem) and (orientation:landscape){
-    
     .modal__figure{
         transform: scale(0.6);
     }
+
+    
 }
 @media screen and (max-width: 87.5rem) {
     .modal{
